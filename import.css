@@ -1,0 +1,106 @@
+
+  body {
+    margin: 0;
+  }
+
+  /* ヘッダーの中身を横並びにする */
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .header-name {
+    background-color: orange;
+    margin-right: 50px;
+    height: 100px;
+  }
+
+  .header-name p {
+    margin: 0;
+    width: 300px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  /* ヘッダーメニューを横並びにして感覚をあけて並べる */
+  .header-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* a要素はインラインなので、その周辺を押した時にもリンクに飛べるように、width,line-height,displayを指定 */
+  .header-menu li {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: pink;
+    display: block;
+    padding: 0;
+    margin: 0 20px;
+    }
+
+    
+
+/* displayで以下のコンテントの回り込みを解除 */
+  .top {
+    display: flex;
+    width: auto;
+    height: 400px;
+    margin-bottom: 40px;
+  }
+
+  .content {
+    width: auto;
+    text-align: center;
+    height: 1600px;
+  }
+
+  h1 {
+    margin: 0;
+    background-color: gray;
+  }
+  
+  .aboutus {
+    width: auto;
+    height: 400px;
+    background-color: #FCD7A1;
+  }
+
+  .each-member {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .member {
+    width: 400px;
+  }
+
+  .member-photo {
+    width: 400px;
+    cursor: pointer;
+  }
+
+  .text-contents {
+    display: none;
+    margin: 0;
+  }
+
+  .text-active {
+    display: block;
+  }
+
+.gallery {
+  width: auto;
+  height: 400px;
+  background-color: #D7E7AF;
+}
+
+.sns {
+  width: auto;
+  height: 400px;
+  background-color: #9FD9F6;
+}
+
